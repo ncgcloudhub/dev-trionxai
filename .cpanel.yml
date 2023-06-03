@@ -1,1 +1,5 @@
-#
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/triotbdw/dev.trionxai.com/
+    - /bin/cp * $DEPLOYPATH
