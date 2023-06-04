@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/triotbdw/dev.trionxai.com/wp-content/themes
-    - /bin/cp -R wp-content/themes/* $DEPLOYPATH
+    - export DEPLOYPATH=/home/triotbdw/dev.trionxai.com/wp-content/themes/king
+    - /bin/cp -R wp-content/themes/king/* $DEPLOYPATH
