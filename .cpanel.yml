@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/triotbdw/dev.trionxai.com/wp-content/themes/king
-    #- /bin/cp -R wp-content $DEPLOYPATH
+    - export DEPLOYPATH=/home/triotbdw/dev.trionxai.com/wp-content/
+    - /bin/cp -R wp-content/ $DEPLOYPATH
     #rsync -avu wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
-    rsync -av wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
+    #rsync -av wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
