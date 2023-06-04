@@ -6,5 +6,6 @@ deployment:
     #- /bin/cp -R wp-content $DEPLOYPATH
     #- /bin/cp -R wp-content /home/triotbdw/dev.trionxai.com/wp-content
     #rsync -avu wp-content /home/triotbdw/dev.trionxai.com/wp-content
-    rsync -av wp-content/themes /home/triotbdw/dev.trionxai.com/wp-content/themes
+    rsync -av --delete --force wp-content/themes/king /home/triotbdw/dev.trionxai.com/wp-content/themes/king
+
     
