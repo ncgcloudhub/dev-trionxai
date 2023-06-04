@@ -4,5 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/triotbdw/dev.trionxai.com/wp-content/
     #- /bin/cp -R wp-content/ $DEPLOYPATH
     #- /bin/cp -R wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
-    rsync -avu wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
+    #rsync -avu wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
     #rsync -av wp-content/ /home/triotbdw/dev.trionxai.com/wp-content/
+    rm -r /home/triotbdw/dev.trionxai.com/wp-content/themes/king
