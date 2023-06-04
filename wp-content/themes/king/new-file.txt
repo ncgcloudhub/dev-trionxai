@@ -1,1 +1,2 @@
+# updating at 12:07 PM.  will use the rsync command.
 # this is a new test file in the king folder @11:47 PM
